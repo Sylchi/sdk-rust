@@ -1,0 +1,13 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!sdk_rust.h
+!README.md
+
+# Even if they are in subdirectories
+!*/
+
+# Ignore all files in any directory named target
+target/
